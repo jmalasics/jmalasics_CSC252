@@ -1,21 +1,22 @@
 package PriorityQueue;
 
 import java.util.ArrayList;
+import java.util.Set;
 
 /**
  * Created by jmalasics on 8/11/2014.
  */
 public class QueueNode<T> implements Comparable {
 
-    private ArrayList<T> values;
+    private Set<T> values;
     private int frequency;
 
-    public QueueNode(ArrayList<T> values, int frequency) {
+    public QueueNode(Set<T> values, int frequency) {
         this.values = values;
         this.frequency = frequency;
     }
 
-    public ArrayList<T> getValues() {
+    public Set<T> getValues() {
         return values;
     }
 

@@ -1,17 +1,18 @@
 package HuffmanTree;
 
-import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * Created by jmalasics on 8/8/2014.
  */
 public class Node<T> {
 
-    private ArrayList<T> values = new ArrayList<T>();
+    private Set<T> values = new HashSet<T>();
     private Node<T> left;
     private Node<T> right;
 
-    public Node(ArrayList<T> values) {
+    public Node(Set<T> values) {
         this.values = values;
     }
 
@@ -33,7 +34,7 @@ public class Node<T> {
         return false;
     }
 
-    public boolean containsAll(ArrayList<T> values) {
+    public boolean containsAll(Set<T> values) {
         return this.values.containsAll(values);
     }
 
@@ -53,10 +54,6 @@ public class Node<T> {
         return right;
     }
 
-    public boolean hasOneValue() {
-        return values.size() == 1;
-    }
-
     public void printValues() {
         for(T value : values) {
             System.out.print(value + ",");
@@ -64,7 +61,7 @@ public class Node<T> {
         System.out.print("  ");
     }
 
-    public ArrayList<T> getValues() {
+    public Set<T> getValues() {
         return values;
     }
 

@@ -1,9 +1,8 @@
 package HuffmanTree;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.PriorityQueue;
-import java.util.Set;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.*;
 
 import PriorityQueue.QueueNode;
 import edu.neumont.io.Bits;
@@ -14,22 +13,56 @@ import edu.neumont.io.Bits;
 public class HuffmanTree<T> {
 
     public static void main(String[] args) {
-        String msg = "Hello World";
-        byte[] originalBytes = msg.getBytes();
-        Byte[] bytes = new Byte[originalBytes.length];
-        for(int i = 0; i < bytes.length; i++) {
-            bytes[i] = new Byte(originalBytes[i]);
+        try {
+            String msg = "Hello World";
+            byte[] originalBytes = Files.readAllBytes(Paths.get("C:\\Users\\jmalasics\\Documents\\GitHub\\jmalasics_CSC252\\MalasicsJ_Zipped\\src", "20140720_185530_1.jpg"));
+            /*byte[] originalBytes = new byte[54679];
+            int[] frequencies = new int[] {423, 116, 145, 136, 130, 165, 179, 197, 148, 125, 954, 156, 143, 145, 164, 241, 107, 149, 176, 153,
+                    121, 164, 144, 166, 100, 138, 157, 140, 119, 138, 178, 289, 360, 120, 961, 195, 139, 147, 129, 192, 119, 146, 138, 184, 137,
+                    196, 163, 331, 115, 160, 127, 172, 176, 181, 149, 194, 138, 154, 163, 167, 196, 174, 250, 354, 142, 169, 170, 209, 205, 179,
+                    147, 245, 108, 179, 148, 186, 131, 160, 112, 219, 118, 204, 164, 154, 154, 175, 189, 239, 126, 145, 185, 179, 149, 167, 152,
+                    244, 189, 257, 234, 208, 179, 170, 171, 178, 184, 189, 203, 184, 204, 208, 187, 163, 335, 326, 206, 189, 210, 204, 230, 202,
+                    415, 240, 275, 295, 375, 308, 401, 608, 2099, 495, 374, 160, 130, 331, 107, 181, 117, 133, 476, 129, 137, 106, 107, 237, 184,
+                    143, 122, 143, 1596, 205, 121, 170, 123, 124, 150, 132, 143, 133, 178, 308, 96, 102, 114, 176, 159, 149, 123, 199, 1156, 119,
+                    144, 237, 131, 155, 143, 225, 92, 125, 117, 138, 135, 154, 124, 137, 121, 143, 149, 141, 177, 159, 247, 384, 302, 120, 95, 140,
+                    87, 1460, 155, 199, 111, 198, 147, 182, 91, 148, 119, 233, 445, 1288, 138, 133, 122, 170, 156, 257, 143, 149, 180, 174, 132, 151,
+                    193, 347, 91, 119, 135, 182, 124, 152, 109, 175, 152, 159, 166, 224, 126, 169, 145, 220, 119, 148, 133, 158, 144, 185, 139, 168, 244,
+                    145, 167, 167, 262, 214, 293, 402};
+            byte b = (byte) -128;
+            int currentIndex = 0;
+            for(int i = 0; i < frequencies.length; i++) {
+                int loopCount = frequencies[i];
+                int count = 0;
+                while(count < loopCount) {
+                    originalBytes[currentIndex] = b;
+                    currentIndex++;
+                    count++;
+                }
+                b++;
+            }*/
+            Byte[] bytes = new Byte[originalBytes.length];
+            for (int i = 0; i < bytes.length; i++) {
+                bytes[i] = new Byte(originalBytes[i]);
+            }
+            HuffmanTree<Byte> tree = new HuffmanTree<Byte>(bytes);
+            /*
+            Bits bits = new Bits();
+            bits.push(false);
+            bits.push(false);
+            bits.push(true);
+            bits.push(false);
+            bits.push(false);
+            bits.push(false);
+            bits.push(false);
+            System.out.println("To byte: " + tree.toByte(bits));
+            */
+            Bits bitsTwo = new Bits();
+            byte myByte = (byte) 120;
+            tree.fromByte(myByte, bitsTwo);
+            tree.inOrder();
+        } catch(Exception e) {
+            e.printStackTrace();
         }
-        HuffmanTree<Byte> tree = new HuffmanTree<Byte>(bytes);
-        Bits bits = new Bits();
-        bits.push(false);
-        bits.push(true);
-        bits.push(true);
-        System.out.println("To byte: " + tree.toByte(bits));
-        Bits bitsTwo = new Bits();
-        byte myByte = (byte) 100;
-        tree.fromByte(myByte, bitsTwo);
-        tree.inOrder();
     }
 
     private Node<T> root;
@@ -55,7 +88,7 @@ public class HuffmanTree<T> {
     private void buildTree(QueueNode<T> one, QueueNode<T> two) {
         int totalFrequency = one.getFrequency() + two.getFrequency();
         if(root == null) {
-            ArrayList<T> values = new ArrayList<T>();
+            Set<T> values = new HashSet<T>();
             values.addAll(one.getValues());
             values.addAll(two.getValues());
             root = new Node<T>(values);
@@ -66,20 +99,42 @@ public class HuffmanTree<T> {
         } else {
             if(treeContains(root, one.getValues())) {
                 Node<T> temp = root;
-                ArrayList<T> newValues = new ArrayList<T>();
+                Set<T> newValues = new HashSet<T>();
                 newValues.addAll(temp.getValues());
                 newValues.addAll(two.getValues());
                 root = new Node<T>(newValues);
                 root.setLeft(temp);
-                root.setRight(disconnectedNodes.get(disconnectedNodes.indexOf(new Node<T>(two.getValues()))));
+                Iterator setIterator = disconnectedNodes.iterator();
+                while(setIterator.hasNext()) {
+                    Node<T> node = (Node<T>) setIterator.next();
+                    if(node.containsAll(two.getValues())) {
+                        root.setRight(node);
+                        disconnectedNodes.remove(node);
+                        break;
+                    }
+                }
+                if(root.getRight() == null) {
+                    root.setRight(new Node<T>(two.getValues()));
+                }
                 queue.add(new QueueNode<T>(newValues, totalFrequency));
             } else if(treeContains(root, two.getValues())) {
                 Node<T> temp = root;
-                ArrayList<T> newValues = new ArrayList<T>();
+                Set<T> newValues = new HashSet<T>();
                 newValues.addAll(one.getValues());
                 newValues.addAll(temp.getValues());
                 root = new Node<T>(newValues);
-                root.setLeft(disconnectedNodes.get(disconnectedNodes.indexOf(new Node<T>(one.getValues()))));
+                Iterator setIterator = disconnectedNodes.iterator();
+                while(setIterator.hasNext()) {
+                    Node<T> node = (Node<T>) setIterator.next();
+                    if(node.containsAll(one.getValues())) {
+                        root.setLeft(node);
+                        disconnectedNodes.remove(node);
+                        break;
+                    }
+                }
+                if(root.getLeft() == null) {
+                    root.setLeft(new Node<T>(one.getValues()));
+                }
                 root.setRight(temp);
                 queue.add(new QueueNode<T>(newValues, totalFrequency));
             } else {
@@ -107,27 +162,35 @@ public class HuffmanTree<T> {
     }
 
     private void buildDisconnectedTree(QueueNode<T> one, QueueNode<T> two, int totalFrequency) {
-        ArrayList<T> newValues = new ArrayList<T>();
+        Set<T> newValues = new HashSet<T>();
         newValues.addAll(one.getValues());
         newValues.addAll(two.getValues());
         Node<T> node = new Node<T>(newValues);
         node.setLeft(new Node<T>(one.getValues()));
-        if(disconnectedNodes.contains(new Node<T>(two.getValues()))) {
-            node.setRight(disconnectedNodes.get(disconnectedNodes.indexOf(new Node<T>(two.getValues()))));
-        } else {
-            node.setRight(new Node<T>(two.getValues()));
-        }
+        node.setRight(new Node<T>(two.getValues()));
         queue.add(new QueueNode<T>(newValues, totalFrequency));
         disconnectedNodes.add(node);
     }
 
     private void buildOffLeft(QueueNode<T> one, Node<T> temp, int totalFrequency) {
         Node<T> node;
-        ArrayList<T> newValues = new ArrayList<T>();
+        Set<T> newValues = new HashSet<T>();
         newValues.addAll(one.getValues());
         newValues.addAll(temp.getValues());
         node = new Node<T>(newValues);
-        node.setLeft(new Node<T>(one.getValues()));
+        if(disconnectedNodes.contains(new Node<T>(one.getValues()))) {
+            Iterator setIterator = disconnectedNodes.iterator();
+            while (setIterator.hasNext()) {
+                Node<T> nodeTwo = (Node<T>) setIterator.next();
+                if (nodeTwo.containsAll(one.getValues())) {
+                    node.setLeft(nodeTwo);
+                    disconnectedNodes.remove(nodeTwo);
+                    break;
+                }
+            }
+        } else {
+            node.setLeft(new Node<T>(one.getValues()));
+        }
         node.setRight(temp);
         queue.add(new QueueNode<T>(newValues, totalFrequency));
         disconnectedNodes.add(node);
@@ -135,12 +198,24 @@ public class HuffmanTree<T> {
 
     private void buildOffRight(Node<T> temp, QueueNode<T> two, int totalFrequency) {
         Node<T> node;
-        ArrayList<T> newValues = new ArrayList<T>();
+        Set<T> newValues = new HashSet<T>();
         newValues.addAll(temp.getValues());
         newValues.addAll(two.getValues());
         node = new Node<T>(newValues);
         node.setLeft(temp);
-        node.setRight(new Node<T>(two.getValues()));
+        if(disconnectedNodes.contains(new Node<T>(two.getValues()))) {
+            Iterator setIterator = disconnectedNodes.iterator();
+            while(setIterator.hasNext()) {
+                Node<T> nodeTwo = (Node<T>) setIterator.next();
+                if(nodeTwo.containsAll(two.getValues())) {
+                    node.setRight(nodeTwo);
+                    disconnectedNodes.remove(nodeTwo);
+                    break;
+                }
+            }
+        } else {
+            node.setRight(new Node<T>(two.getValues()));
+        }
         queue.add(new QueueNode<T>(newValues, totalFrequency));
         disconnectedNodes.add(node);
     }
@@ -161,7 +236,7 @@ public class HuffmanTree<T> {
     private void buildQueue() {
         Set<T> keySet = frequencyTable.keySet();
         for(T value : keySet) {
-            ArrayList<T> values = new ArrayList<T>();
+            Set<T> values = new HashSet<T>();
             values.add(value);
             queue.add(new QueueNode<T>(values, frequencyTable.get(value)));
         }
@@ -172,8 +247,8 @@ public class HuffmanTree<T> {
     }
 
     private T toByte(Bits bits, Node<T> current) {
-        if(current.getRight() == null) {
-            return current.getValues().get(0);
+        if(current.getRight() == null && current.getLeft() == null) {
+            return (T) current.getValues().toArray()[0];
         }
         boolean isRight = bits.pollFirst();
         if(isRight) {
@@ -188,7 +263,7 @@ public class HuffmanTree<T> {
     }
 
     private void fromByte(T t, Bits bits, Node<T> current) {
-        if(current.getLeft() != null) {
+        if(current.getLeft() != null && current.getRight() != null) {
             if (current.getLeft().contains(t)) {
                 bits.push(false);
                 if(current.getLeft().getValues().size() > 1) {
@@ -220,7 +295,7 @@ public class HuffmanTree<T> {
         node.printValues();
     }
 
-    private boolean treeContains(Node<T> node, ArrayList<T> values) {
+    private boolean treeContains(Node<T> node, Set<T> values) {
         return node.containsAll(values);
     }
 
