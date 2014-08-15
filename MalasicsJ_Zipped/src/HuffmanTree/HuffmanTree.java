@@ -15,7 +15,8 @@ public class HuffmanTree<T> {
     public static void main(String[] args) {
         try {
             String msg = "Hello World";
-            byte[] originalBytes = Files.readAllBytes(Paths.get("C:\\Users\\jmalasics\\Documents\\GitHub\\jmalasics_CSC252\\MalasicsJ_Zipped\\src", "20140720_185530_1.jpg"));
+            byte[] picCompressedBytes = Files.readAllBytes(Paths.get("C:\\Users\\jmalasics\\Documents\\GitHub\\jmalasics_CSC252\\MalasicsJ_Zipped\\src", "compressed.huff"));
+            byte[] originalBytes = new byte[] {-1, -50, -70, 120, 127}; //Files.readAllBytes(Paths.get("C:\\Users\\jmalasics\\Pictures", "ph.jpg"));
             /*byte[] originalBytes = new byte[54679];
             int[] frequencies = new int[] {423, 116, 145, 136, 130, 165, 179, 197, 148, 125, 954, 156, 143, 145, 164, 241, 107, 149, 176, 153,
                     121, 164, 144, 166, 100, 138, 157, 140, 119, 138, 178, 289, 360, 120, 961, 195, 139, 147, 129, 192, 119, 146, 138, 184, 137,
@@ -45,21 +46,13 @@ public class HuffmanTree<T> {
                 bytes[i] = new Byte(originalBytes[i]);
             }
             HuffmanTree<Byte> tree = new HuffmanTree<Byte>(bytes);
-            /*
-            Bits bits = new Bits();
-            bits.push(false);
-            bits.push(false);
-            bits.push(true);
-            bits.push(false);
-            bits.push(false);
-            bits.push(false);
-            bits.push(false);
-            System.out.println("To byte: " + tree.toByte(bits));
-            */
-            Bits bitsTwo = new Bits();
-            byte myByte = (byte) 120;
-            tree.fromByte(myByte, bitsTwo);
-            tree.inOrder();
+            HuffmanCompressor compressor = new HuffmanCompressor();
+            System.out.println("Starting bytes size: " + bytes.length);
+            byte[] compressedBytes = compressor.compress(tree, originalBytes);
+            System.out.println("Compressed bytes size: " + compressedBytes.length);
+            byte[] uncompressedBytes = compressor.decompress(tree, bytes.length, compressedBytes);
+            System.out.println("Uncompressed bytes size: " + uncompressedBytes.length);
+            Files.write(Paths.get("C:\\Users\\jmalasics\\Documents\\GitHub\\jmalasics_CSC252\\MalasicsJ_Zipped\\src", "uncompressed.jpg"), uncompressedBytes);
         } catch(Exception e) {
             e.printStackTrace();
         }
@@ -250,7 +243,7 @@ public class HuffmanTree<T> {
         if(current.getRight() == null && current.getLeft() == null) {
             return (T) current.getValues().toArray()[0];
         }
-        boolean isRight = bits.pollFirst();
+        boolean isRight = bits.poll();
         if(isRight) {
             return toByte(bits, current.getRight());
         } else {
