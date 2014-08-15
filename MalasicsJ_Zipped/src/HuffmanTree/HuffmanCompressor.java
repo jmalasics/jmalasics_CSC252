@@ -23,7 +23,7 @@ public class HuffmanCompressor {
         boolean running = true;
         while(running) {
             if(!bits.isEmpty()) {
-                int bitValue = bits.pollFirst() ? 1 : 0;
+                int bitValue = bits.pollLast() ? 1 : 0;
                 byteValue += bitValue * Math.pow(2, power);
                 count++;
                 power--;
@@ -56,9 +56,6 @@ public class HuffmanCompressor {
                     bits.push(false);
                 }
             }
-        }
-        for(int i = 0; i < uncompressedLength - 1; i++) {
-            bits.poll();
         }
         for(int i = 0; i < uncompressedBytes.length; i++) {
             uncompressedBytes[i] = tree.toByte(bits);

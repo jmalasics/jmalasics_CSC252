@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="MalasicsJ_Zipped:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8e8afbee-f093-400f-bd4c-f3319fa07ead" name="Default" comment="" />
     <ignored path="MalasicsJ_Zipped.iws" />
@@ -23,34 +28,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HuffmanTree.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="HuffmanTree.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/HuffmanTree/HuffmanTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="677" max-vertical-offset="5270">
-              <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.5064782" vertical-offset="46" max-vertical-offset="4692">
+              <caret line="77" column="32" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
               <folding>
-                <element signature="e#2889#2895#0" expanded="true" />
-                <element signature="e#3720#3732#0" expanded="true" />
-                <element signature="e#3801#3815#0" expanded="true" />
-                <element signature="e#3883#3892#0" expanded="true" />
-                <element signature="e#11010#11011#0" expanded="true" />
-                <element signature="e#11051#11052#0" expanded="true" />
-                <element signature="e#11483#11484#0" expanded="true" />
-                <element signature="e#11522#11523#0" expanded="true" />
-                <element signature="e#12467#12468#0" expanded="true" />
-                <element signature="e#12501#12502#0" expanded="true" />
-                <element signature="e#12566#12567#0" expanded="true" />
-                <element signature="e#12613#12614#0" expanded="true" />
+                <element signature="method#main#0;class#HuffmanTree#0" expanded="false" />
+                <element signature="e#2891#2897#0" expanded="true" />
+                <element signature="e#3722#3734#0" expanded="true" />
+                <element signature="e#3803#3817#0" expanded="true" />
+                <element signature="e#3885#3894#0" expanded="true" />
+                <element signature="e#11529#11530#0" expanded="true" />
+                <element signature="e#11570#11571#0" expanded="true" />
+                <element signature="e#12006#12007#0" expanded="true" />
+                <element signature="e#12045#12046#0" expanded="true" />
+                <element signature="e#12990#12991#0" expanded="true" />
+                <element signature="e#13024#13025#0" expanded="true" />
+                <element signature="e#13089#13090#0" expanded="true" />
+                <element signature="e#13136#13137#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HuffmanCompressor.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="HuffmanCompressor.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HuffmanTree/HuffmanCompressor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.71428573" vertical-offset="668" max-vertical-offset="1224">
-              <caret line="62" column="56" selection-start-line="62" selection-start-column="56" selection-end-line="62" selection-end-column="56" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="590" max-vertical-offset="1173">
+              <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -69,13 +75,9 @@
       <file leaf-file-name="Node.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HuffmanTree/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="568" max-vertical-offset="1037">
+            <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="969">
               <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
               <folding>
-                <element signature="e#933#934#0" expanded="true" />
-                <element signature="e#960#961#0" expanded="true" />
-                <element signature="e#1060#1061#0" expanded="true" />
-                <element signature="e#1088#1089#0" expanded="true" />
                 <element signature="e#1306#1307#0" expanded="true" />
               </folding>
             </state>
@@ -96,16 +98,19 @@
         <option value="$PROJECT_DIR$/src/HuffmanTree/Node.java" />
         <option value="$PROJECT_DIR$/src/HuffmanCompress.java" />
         <option value="$PROJECT_DIR$/src/HuffmanCompressor.java" />
-        <option value="$PROJECT_DIR$/src/HuffmanTree/HuffmanTree.java" />
         <option value="$PROJECT_DIR$/src/HuffmanTree/HuffmanCompressor.java" />
+        <option value="$PROJECT_DIR$/src/HuffmanTree/HuffmanTree.java" />
       </list>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="577" />
+    <option name="y" value="14" />
+    <option name="width" value="1262" />
+    <option name="height" value="1021" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -135,8 +140,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -213,7 +218,7 @@
     <property name="FullScreen" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -492,14 +497,15 @@
       <workItem from="1408047712367" duration="4363000" />
       <workItem from="1408056552451" duration="2000000" />
       <workItem from="1408108893486" duration="8267000" />
+      <workItem from="1408123324239" duration="8467000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72710000" />
+    <option name="totallyTimeSpent" value="81177000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="577" y="14" width="1262" height="1021" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -509,7 +515,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4627027" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4616216" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32968238" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -519,10 +525,10 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29104477" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33945945" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.45424291" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35280898" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -548,15 +554,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/HuffmanTree/HuffmanTree.java</url>
-          <line>54</line>
-          <properties />
-          <option name="timeStamp" value="56" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="60" />
+      <option name="time" value="67" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -566,21 +564,70 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/HuffmanTree/HuffmanTree.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5355">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding>
+            <element signature="method#main#0;class#HuffmanTree#0" expanded="false" />
+            <element signature="e#2891#2897#0" expanded="true" />
+            <element signature="e#3722#3734#0" expanded="true" />
+            <element signature="e#3803#3817#0" expanded="true" />
+            <element signature="e#3885#3894#0" expanded="true" />
+            <element signature="e#11529#11530#0" expanded="true" />
+            <element signature="e#11570#11571#0" expanded="true" />
+            <element signature="e#12006#12007#0" expanded="true" />
+            <element signature="e#12045#12046#0" expanded="true" />
+            <element signature="e#12990#12991#0" expanded="true" />
+            <element signature="e#13024#13025#0" expanded="true" />
+            <element signature="e#13089#13090#0" expanded="true" />
+            <element signature="e#13136#13137#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HuffmanTree/HuffmanCompressor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1224">
+          <caret line="62" column="56" selection-start-line="62" selection-start-column="56" selection-end-line="62" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PriorityQueue/QueueNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1207">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HuffmanTree/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1088" max-vertical-offset="1258">
+          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding>
+            <element signature="e#1306#1307#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HuffmanTree/HuffmanTree.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="901" max-vertical-offset="5355">
           <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding>
-            <element signature="e#2889#2895#0" expanded="true" />
-            <element signature="e#3720#3732#0" expanded="true" />
-            <element signature="e#3801#3815#0" expanded="true" />
-            <element signature="e#3883#3892#0" expanded="true" />
-            <element signature="e#11010#11011#0" expanded="true" />
-            <element signature="e#11051#11052#0" expanded="true" />
-            <element signature="e#11483#11484#0" expanded="true" />
-            <element signature="e#11522#11523#0" expanded="true" />
-            <element signature="e#12467#12468#0" expanded="true" />
-            <element signature="e#12501#12502#0" expanded="true" />
-            <element signature="e#12566#12567#0" expanded="true" />
-            <element signature="e#12613#12614#0" expanded="true" />
+            <element signature="method#main#0;class#HuffmanTree#0" expanded="false" />
+            <element signature="e#2891#2897#0" expanded="true" />
+            <element signature="e#3722#3734#0" expanded="true" />
+            <element signature="e#3803#3817#0" expanded="true" />
+            <element signature="e#3885#3894#0" expanded="true" />
+            <element signature="e#11529#11530#0" expanded="true" />
+            <element signature="e#11570#11571#0" expanded="true" />
+            <element signature="e#12006#12007#0" expanded="true" />
+            <element signature="e#12045#12046#0" expanded="true" />
+            <element signature="e#12990#12991#0" expanded="true" />
+            <element signature="e#13024#13025#0" expanded="true" />
+            <element signature="e#13089#13090#0" expanded="true" />
+            <element signature="e#13136#13137#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -606,10 +653,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="1088" max-vertical-offset="1258">
           <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
           <folding>
-            <element signature="e#933#934#0" expanded="true" />
-            <element signature="e#960#961#0" expanded="true" />
-            <element signature="e#1060#1061#0" expanded="true" />
-            <element signature="e#1088#1089#0" expanded="true" />
             <element signature="e#1306#1307#0" expanded="true" />
           </folding>
         </state>
@@ -620,18 +663,19 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="173" max-vertical-offset="5355">
           <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
           <folding>
-            <element signature="e#2889#2895#0" expanded="true" />
-            <element signature="e#3720#3732#0" expanded="true" />
-            <element signature="e#3801#3815#0" expanded="true" />
-            <element signature="e#3883#3892#0" expanded="true" />
-            <element signature="e#11010#11011#0" expanded="true" />
-            <element signature="e#11051#11052#0" expanded="true" />
-            <element signature="e#11483#11484#0" expanded="true" />
-            <element signature="e#11522#11523#0" expanded="true" />
-            <element signature="e#12467#12468#0" expanded="true" />
-            <element signature="e#12501#12502#0" expanded="true" />
-            <element signature="e#12566#12567#0" expanded="true" />
-            <element signature="e#12613#12614#0" expanded="true" />
+            <element signature="method#main#0;class#HuffmanTree#0" expanded="false" />
+            <element signature="e#2891#2897#0" expanded="true" />
+            <element signature="e#3722#3734#0" expanded="true" />
+            <element signature="e#3803#3817#0" expanded="true" />
+            <element signature="e#3885#3894#0" expanded="true" />
+            <element signature="e#11529#11530#0" expanded="true" />
+            <element signature="e#11570#11571#0" expanded="true" />
+            <element signature="e#12006#12007#0" expanded="true" />
+            <element signature="e#12045#12046#0" expanded="true" />
+            <element signature="e#12990#12991#0" expanded="true" />
+            <element signature="e#13024#13025#0" expanded="true" />
+            <element signature="e#13089#13090#0" expanded="true" />
+            <element signature="e#13136#13137#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -657,10 +701,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="1258">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <element signature="e#933#934#0" expanded="true" />
-            <element signature="e#960#961#0" expanded="true" />
-            <element signature="e#1060#1061#0" expanded="true" />
-            <element signature="e#1088#1089#0" expanded="true" />
             <element signature="e#1306#1307#0" expanded="true" />
           </folding>
         </state>
@@ -671,18 +711,19 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="646" max-vertical-offset="5610">
           <caret line="54" column="135" selection-start-line="54" selection-start-column="135" selection-end-line="54" selection-end-column="135" />
           <folding>
-            <element signature="e#2889#2895#0" expanded="true" />
-            <element signature="e#3720#3732#0" expanded="true" />
-            <element signature="e#3801#3815#0" expanded="true" />
-            <element signature="e#3883#3892#0" expanded="true" />
-            <element signature="e#11010#11011#0" expanded="true" />
-            <element signature="e#11051#11052#0" expanded="true" />
-            <element signature="e#11483#11484#0" expanded="true" />
-            <element signature="e#11522#11523#0" expanded="true" />
-            <element signature="e#12467#12468#0" expanded="true" />
-            <element signature="e#12501#12502#0" expanded="true" />
-            <element signature="e#12566#12567#0" expanded="true" />
-            <element signature="e#12613#12614#0" expanded="true" />
+            <element signature="method#main#0;class#HuffmanTree#0" expanded="false" />
+            <element signature="e#2891#2897#0" expanded="true" />
+            <element signature="e#3722#3734#0" expanded="true" />
+            <element signature="e#3803#3817#0" expanded="true" />
+            <element signature="e#3885#3894#0" expanded="true" />
+            <element signature="e#11529#11530#0" expanded="true" />
+            <element signature="e#11570#11571#0" expanded="true" />
+            <element signature="e#12006#12007#0" expanded="true" />
+            <element signature="e#12045#12046#0" expanded="true" />
+            <element signature="e#12990#12991#0" expanded="true" />
+            <element signature="e#13024#13025#0" expanded="true" />
+            <element signature="e#13089#13090#0" expanded="true" />
+            <element signature="e#13136#13137#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -708,10 +749,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="1258">
           <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
           <folding>
-            <element signature="e#933#934#0" expanded="true" />
-            <element signature="e#960#961#0" expanded="true" />
-            <element signature="e#1060#1061#0" expanded="true" />
-            <element signature="e#1088#1089#0" expanded="true" />
             <element signature="e#1306#1307#0" expanded="true" />
           </folding>
         </state>
@@ -722,18 +759,19 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="181" max-vertical-offset="4097">
           <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
-            <element signature="e#2889#2895#0" expanded="true" />
-            <element signature="e#3720#3732#0" expanded="true" />
-            <element signature="e#3801#3815#0" expanded="true" />
-            <element signature="e#3883#3892#0" expanded="true" />
-            <element signature="e#11010#11011#0" expanded="true" />
-            <element signature="e#11051#11052#0" expanded="true" />
-            <element signature="e#11483#11484#0" expanded="true" />
-            <element signature="e#11522#11523#0" expanded="true" />
-            <element signature="e#12467#12468#0" expanded="true" />
-            <element signature="e#12501#12502#0" expanded="true" />
-            <element signature="e#12566#12567#0" expanded="true" />
-            <element signature="e#12613#12614#0" expanded="true" />
+            <element signature="method#main#0;class#HuffmanTree#0" expanded="false" />
+            <element signature="e#2891#2897#0" expanded="true" />
+            <element signature="e#3722#3734#0" expanded="true" />
+            <element signature="e#3803#3817#0" expanded="true" />
+            <element signature="e#3885#3894#0" expanded="true" />
+            <element signature="e#11529#11530#0" expanded="true" />
+            <element signature="e#11570#11571#0" expanded="true" />
+            <element signature="e#12006#12007#0" expanded="true" />
+            <element signature="e#12045#12046#0" expanded="true" />
+            <element signature="e#12990#12991#0" expanded="true" />
+            <element signature="e#13024#13025#0" expanded="true" />
+            <element signature="e#13089#13090#0" expanded="true" />
+            <element signature="e#13136#13137#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -751,10 +789,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1309">
           <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
-            <element signature="e#933#934#0" expanded="true" />
-            <element signature="e#960#961#0" expanded="true" />
-            <element signature="e#1060#1061#0" expanded="true" />
-            <element signature="e#1088#1089#0" expanded="true" />
             <element signature="e#1306#1307#0" expanded="true" />
           </folding>
         </state>
@@ -765,18 +799,19 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="4080">
           <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
           <folding>
-            <element signature="e#2889#2895#0" expanded="true" />
-            <element signature="e#3720#3732#0" expanded="true" />
-            <element signature="e#3801#3815#0" expanded="true" />
-            <element signature="e#3883#3892#0" expanded="true" />
-            <element signature="e#11010#11011#0" expanded="true" />
-            <element signature="e#11051#11052#0" expanded="true" />
-            <element signature="e#11483#11484#0" expanded="true" />
-            <element signature="e#11522#11523#0" expanded="true" />
-            <element signature="e#12467#12468#0" expanded="true" />
-            <element signature="e#12501#12502#0" expanded="true" />
-            <element signature="e#12566#12567#0" expanded="true" />
-            <element signature="e#12613#12614#0" expanded="true" />
+            <element signature="method#main#0;class#HuffmanTree#0" expanded="false" />
+            <element signature="e#2891#2897#0" expanded="true" />
+            <element signature="e#3722#3734#0" expanded="true" />
+            <element signature="e#3803#3817#0" expanded="true" />
+            <element signature="e#3885#3894#0" expanded="true" />
+            <element signature="e#11529#11530#0" expanded="true" />
+            <element signature="e#11570#11571#0" expanded="true" />
+            <element signature="e#12006#12007#0" expanded="true" />
+            <element signature="e#12045#12046#0" expanded="true" />
+            <element signature="e#12990#12991#0" expanded="true" />
+            <element signature="e#13024#13025#0" expanded="true" />
+            <element signature="e#13089#13090#0" expanded="true" />
+            <element signature="e#13136#13137#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -794,10 +829,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1309">
           <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
-            <element signature="e#933#934#0" expanded="true" />
-            <element signature="e#960#961#0" expanded="true" />
-            <element signature="e#1060#1061#0" expanded="true" />
-            <element signature="e#1088#1089#0" expanded="true" />
             <element signature="e#1306#1307#0" expanded="true" />
           </folding>
         </state>
@@ -808,18 +839,19 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1938">
           <caret line="41" column="73" selection-start-line="41" selection-start-column="73" selection-end-line="41" selection-end-column="73" />
           <folding>
-            <element signature="e#2889#2895#0" expanded="true" />
-            <element signature="e#3720#3732#0" expanded="true" />
-            <element signature="e#3801#3815#0" expanded="true" />
-            <element signature="e#3883#3892#0" expanded="true" />
-            <element signature="e#11010#11011#0" expanded="true" />
-            <element signature="e#11051#11052#0" expanded="true" />
-            <element signature="e#11483#11484#0" expanded="true" />
-            <element signature="e#11522#11523#0" expanded="true" />
-            <element signature="e#12467#12468#0" expanded="true" />
-            <element signature="e#12501#12502#0" expanded="true" />
-            <element signature="e#12566#12567#0" expanded="true" />
-            <element signature="e#12613#12614#0" expanded="true" />
+            <element signature="method#main#0;class#HuffmanTree#0" expanded="false" />
+            <element signature="e#2891#2897#0" expanded="true" />
+            <element signature="e#3722#3734#0" expanded="true" />
+            <element signature="e#3803#3817#0" expanded="true" />
+            <element signature="e#3885#3894#0" expanded="true" />
+            <element signature="e#11529#11530#0" expanded="true" />
+            <element signature="e#11570#11571#0" expanded="true" />
+            <element signature="e#12006#12007#0" expanded="true" />
+            <element signature="e#12045#12046#0" expanded="true" />
+            <element signature="e#12990#12991#0" expanded="true" />
+            <element signature="e#13024#13025#0" expanded="true" />
+            <element signature="e#13089#13090#0" expanded="true" />
+            <element signature="e#13136#13137#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -837,10 +869,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="935">
           <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
           <folding>
-            <element signature="e#933#934#0" expanded="true" />
-            <element signature="e#960#961#0" expanded="true" />
-            <element signature="e#1060#1061#0" expanded="true" />
-            <element signature="e#1088#1089#0" expanded="true" />
             <element signature="e#1306#1307#0" expanded="true" />
           </folding>
         </state>
@@ -851,18 +879,19 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="782" max-vertical-offset="1751">
           <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
           <folding>
-            <element signature="e#2889#2895#0" expanded="true" />
-            <element signature="e#3720#3732#0" expanded="true" />
-            <element signature="e#3801#3815#0" expanded="true" />
-            <element signature="e#3883#3892#0" expanded="true" />
-            <element signature="e#11010#11011#0" expanded="true" />
-            <element signature="e#11051#11052#0" expanded="true" />
-            <element signature="e#11483#11484#0" expanded="true" />
-            <element signature="e#11522#11523#0" expanded="true" />
-            <element signature="e#12467#12468#0" expanded="true" />
-            <element signature="e#12501#12502#0" expanded="true" />
-            <element signature="e#12566#12567#0" expanded="true" />
-            <element signature="e#12613#12614#0" expanded="true" />
+            <element signature="method#main#0;class#HuffmanTree#0" expanded="false" />
+            <element signature="e#2891#2897#0" expanded="true" />
+            <element signature="e#3722#3734#0" expanded="true" />
+            <element signature="e#3803#3817#0" expanded="true" />
+            <element signature="e#3885#3894#0" expanded="true" />
+            <element signature="e#11529#11530#0" expanded="true" />
+            <element signature="e#11570#11571#0" expanded="true" />
+            <element signature="e#12006#12007#0" expanded="true" />
+            <element signature="e#12045#12046#0" expanded="true" />
+            <element signature="e#12990#12991#0" expanded="true" />
+            <element signature="e#13024#13025#0" expanded="true" />
+            <element signature="e#13089#13090#0" expanded="true" />
+            <element signature="e#13136#13137#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -880,10 +909,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="935">
           <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
           <folding>
-            <element signature="e#933#934#0" expanded="true" />
-            <element signature="e#960#961#0" expanded="true" />
-            <element signature="e#1060#1061#0" expanded="true" />
-            <element signature="e#1088#1089#0" expanded="true" />
             <element signature="e#1306#1307#0" expanded="true" />
           </folding>
         </state>
@@ -894,18 +919,19 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="1581">
           <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
           <folding>
-            <element signature="e#2889#2895#0" expanded="true" />
-            <element signature="e#3720#3732#0" expanded="true" />
-            <element signature="e#3801#3815#0" expanded="true" />
-            <element signature="e#3883#3892#0" expanded="true" />
-            <element signature="e#11010#11011#0" expanded="true" />
-            <element signature="e#11051#11052#0" expanded="true" />
-            <element signature="e#11483#11484#0" expanded="true" />
-            <element signature="e#11522#11523#0" expanded="true" />
-            <element signature="e#12467#12468#0" expanded="true" />
-            <element signature="e#12501#12502#0" expanded="true" />
-            <element signature="e#12566#12567#0" expanded="true" />
-            <element signature="e#12613#12614#0" expanded="true" />
+            <element signature="method#main#0;class#HuffmanTree#0" expanded="false" />
+            <element signature="e#2891#2897#0" expanded="true" />
+            <element signature="e#3722#3734#0" expanded="true" />
+            <element signature="e#3803#3817#0" expanded="true" />
+            <element signature="e#3885#3894#0" expanded="true" />
+            <element signature="e#11529#11530#0" expanded="true" />
+            <element signature="e#11570#11571#0" expanded="true" />
+            <element signature="e#12006#12007#0" expanded="true" />
+            <element signature="e#12045#12046#0" expanded="true" />
+            <element signature="e#12990#12991#0" expanded="true" />
+            <element signature="e#13024#13025#0" expanded="true" />
+            <element signature="e#13089#13090#0" expanded="true" />
+            <element signature="e#13136#13137#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -923,10 +949,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="935">
           <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
           <folding>
-            <element signature="e#933#934#0" expanded="true" />
-            <element signature="e#960#961#0" expanded="true" />
-            <element signature="e#1060#1061#0" expanded="true" />
-            <element signature="e#1088#1089#0" expanded="true" />
             <element signature="e#1306#1307#0" expanded="true" />
           </folding>
         </state>
@@ -937,18 +959,19 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="1530">
           <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
           <folding>
-            <element signature="e#2889#2895#0" expanded="true" />
-            <element signature="e#3720#3732#0" expanded="true" />
-            <element signature="e#3801#3815#0" expanded="true" />
-            <element signature="e#3883#3892#0" expanded="true" />
-            <element signature="e#11010#11011#0" expanded="true" />
-            <element signature="e#11051#11052#0" expanded="true" />
-            <element signature="e#11483#11484#0" expanded="true" />
-            <element signature="e#11522#11523#0" expanded="true" />
-            <element signature="e#12467#12468#0" expanded="true" />
-            <element signature="e#12501#12502#0" expanded="true" />
-            <element signature="e#12566#12567#0" expanded="true" />
-            <element signature="e#12613#12614#0" expanded="true" />
+            <element signature="method#main#0;class#HuffmanTree#0" expanded="false" />
+            <element signature="e#2891#2897#0" expanded="true" />
+            <element signature="e#3722#3734#0" expanded="true" />
+            <element signature="e#3803#3817#0" expanded="true" />
+            <element signature="e#3885#3894#0" expanded="true" />
+            <element signature="e#11529#11530#0" expanded="true" />
+            <element signature="e#11570#11571#0" expanded="true" />
+            <element signature="e#12006#12007#0" expanded="true" />
+            <element signature="e#12045#12046#0" expanded="true" />
+            <element signature="e#12990#12991#0" expanded="true" />
+            <element signature="e#13024#13025#0" expanded="true" />
+            <element signature="e#13089#13090#0" expanded="true" />
+            <element signature="e#13136#13137#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -966,10 +989,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="935">
           <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
           <folding>
-            <element signature="e#933#934#0" expanded="true" />
-            <element signature="e#960#961#0" expanded="true" />
-            <element signature="e#1060#1061#0" expanded="true" />
-            <element signature="e#1088#1089#0" expanded="true" />
             <element signature="e#1306#1307#0" expanded="true" />
           </folding>
         </state>
@@ -980,18 +999,19 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="969">
           <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
           <folding>
-            <element signature="e#2889#2895#0" expanded="true" />
-            <element signature="e#3720#3732#0" expanded="true" />
-            <element signature="e#3801#3815#0" expanded="true" />
-            <element signature="e#3883#3892#0" expanded="true" />
-            <element signature="e#11010#11011#0" expanded="true" />
-            <element signature="e#11051#11052#0" expanded="true" />
-            <element signature="e#11483#11484#0" expanded="true" />
-            <element signature="e#11522#11523#0" expanded="true" />
-            <element signature="e#12467#12468#0" expanded="true" />
-            <element signature="e#12501#12502#0" expanded="true" />
-            <element signature="e#12566#12567#0" expanded="true" />
-            <element signature="e#12613#12614#0" expanded="true" />
+            <element signature="method#main#0;class#HuffmanTree#0" expanded="false" />
+            <element signature="e#2891#2897#0" expanded="true" />
+            <element signature="e#3722#3734#0" expanded="true" />
+            <element signature="e#3803#3817#0" expanded="true" />
+            <element signature="e#3885#3894#0" expanded="true" />
+            <element signature="e#11529#11530#0" expanded="true" />
+            <element signature="e#11570#11571#0" expanded="true" />
+            <element signature="e#12006#12007#0" expanded="true" />
+            <element signature="e#12045#12046#0" expanded="true" />
+            <element signature="e#12990#12991#0" expanded="true" />
+            <element signature="e#13024#13025#0" expanded="true" />
+            <element signature="e#13089#13090#0" expanded="true" />
+            <element signature="e#13136#13137#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1001,10 +1021,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="748">
           <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
           <folding>
-            <element signature="e#933#934#0" expanded="true" />
-            <element signature="e#960#961#0" expanded="true" />
-            <element signature="e#1060#1061#0" expanded="true" />
-            <element signature="e#1088#1089#0" expanded="true" />
             <element signature="e#1306#1307#0" expanded="true" />
           </folding>
         </state>
@@ -1030,46 +1046,38 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="568" max-vertical-offset="1037">
           <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
           <folding>
-            <element signature="e#933#934#0" expanded="true" />
-            <element signature="e#960#961#0" expanded="true" />
-            <element signature="e#1060#1061#0" expanded="true" />
-            <element signature="e#1088#1089#0" expanded="true" />
             <element signature="e#1306#1307#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/uncompressed.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HuffmanTree/HuffmanTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="677" max-vertical-offset="5270">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding>
-            <element signature="e#2889#2895#0" expanded="true" />
-            <element signature="e#3720#3732#0" expanded="true" />
-            <element signature="e#3801#3815#0" expanded="true" />
-            <element signature="e#3883#3892#0" expanded="true" />
-            <element signature="e#11010#11011#0" expanded="true" />
-            <element signature="e#11051#11052#0" expanded="true" />
-            <element signature="e#11483#11484#0" expanded="true" />
-            <element signature="e#11522#11523#0" expanded="true" />
-            <element signature="e#12467#12468#0" expanded="true" />
-            <element signature="e#12501#12502#0" expanded="true" />
-            <element signature="e#12566#12567#0" expanded="true" />
-            <element signature="e#12613#12614#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HuffmanTree/HuffmanCompressor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.71428573" vertical-offset="668" max-vertical-offset="1224">
-          <caret line="62" column="56" selection-start-line="62" selection-start-column="56" selection-end-line="62" selection-end-column="56" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="590" max-vertical-offset="1173">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HuffmanTree/HuffmanTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5064782" vertical-offset="46" max-vertical-offset="4692">
+          <caret line="77" column="32" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
+          <folding>
+            <element signature="method#main#0;class#HuffmanTree#0" expanded="false" />
+            <element signature="e#2891#2897#0" expanded="true" />
+            <element signature="e#3722#3734#0" expanded="true" />
+            <element signature="e#3803#3817#0" expanded="true" />
+            <element signature="e#3885#3894#0" expanded="true" />
+            <element signature="e#11529#11530#0" expanded="true" />
+            <element signature="e#11570#11571#0" expanded="true" />
+            <element signature="e#12006#12007#0" expanded="true" />
+            <element signature="e#12045#12046#0" expanded="true" />
+            <element signature="e#12990#12991#0" expanded="true" />
+            <element signature="e#13024#13025#0" expanded="true" />
+            <element signature="e#13089#13090#0" expanded="true" />
+            <element signature="e#13136#13137#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1079,10 +1087,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>MalasicsJ_Zipped:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

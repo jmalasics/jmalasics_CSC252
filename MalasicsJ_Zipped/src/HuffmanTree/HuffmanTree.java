@@ -16,8 +16,8 @@ public class HuffmanTree<T> {
         try {
             String msg = "Hello World";
             byte[] picCompressedBytes = Files.readAllBytes(Paths.get("C:\\Users\\jmalasics\\Documents\\GitHub\\jmalasics_CSC252\\MalasicsJ_Zipped\\src", "compressed.huff"));
-            byte[] originalBytes = new byte[] {-1, -50, -70, 120, 127}; //Files.readAllBytes(Paths.get("C:\\Users\\jmalasics\\Pictures", "ph.jpg"));
-            /*byte[] originalBytes = new byte[54679];
+            byte[] originalBytes = /*new byte[] {-1, -50, -70, 120, 127};*/ Files.readAllBytes(Paths.get("C:\\Users\\jmalasics\\Pictures", "ph.jpg"));
+           /* byte[] originalBytes = new byte[54679];
             int[] frequencies = new int[] {423, 116, 145, 136, 130, 165, 179, 197, 148, 125, 954, 156, 143, 145, 164, 241, 107, 149, 176, 153,
                     121, 164, 144, 166, 100, 138, 157, 140, 119, 138, 178, 289, 360, 120, 961, 195, 139, 147, 129, 192, 119, 146, 138, 184, 137,
                     196, 163, 331, 115, 160, 127, 172, 176, 181, 149, 194, 138, 154, 163, 167, 196, 174, 250, 354, 142, 169, 170, 209, 205, 179,
@@ -68,6 +68,7 @@ public class HuffmanTree<T> {
         printFrequencyTable();
         buildQueue();
         fillTree();
+        System.out.println("Disconnected count: " + disconnectedNodes.size());
     }
 
     private void fillTree() {
@@ -132,7 +133,8 @@ public class HuffmanTree<T> {
                 queue.add(new QueueNode<T>(newValues, totalFrequency));
             } else {
                 if(disconnectedNodes.size() > 0) {
-                    for(int i = 0; i < disconnectedNodes.size(); i++) {
+                    int i;
+                    for(i = 0; i < disconnectedNodes.size(); i++) {
                         Node<T> node = disconnectedNodes.get(i);
                         if (node.containsAll(one.getValues())) {
                             disconnectedNodes.remove(node);
@@ -142,10 +144,18 @@ public class HuffmanTree<T> {
                             disconnectedNodes.remove(node);
                             buildOffLeft(one, node, totalFrequency);
                             i = disconnectedNodes.size() + 1;
-                        } else {
-                            buildDisconnectedTree(one, two, totalFrequency);
-                            i = disconnectedNodes.size() + 1;
                         }
+                    }
+                    System.out.println("i: " + i);
+                    System.out.println("Disconnected length: " + disconnectedNodes.size());
+                    if(i < disconnectedNodes.size() + 1) {
+                        if(one.getValues().size() > 1) {
+                            System.out.println("Error ONE.");
+                        }
+                        if(two.getValues().size() > 1) {
+                            System.out.println("Error TWO.");
+                        }
+                        buildDisconnectedTree(one, two, totalFrequency);
                     }
                 } else {
                     buildDisconnectedTree(one, two, totalFrequency);
@@ -243,7 +253,7 @@ public class HuffmanTree<T> {
         if(current.getRight() == null && current.getLeft() == null) {
             return (T) current.getValues().toArray()[0];
         }
-        boolean isRight = bits.poll();
+        boolean isRight = bits.pollLast();
         if(isRight) {
             return toByte(bits, current.getRight());
         } else {
