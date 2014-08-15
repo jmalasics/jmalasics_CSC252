@@ -60,7 +60,7 @@ public class HuffmanCompressor {
         for(int i = 0; i < uncompressedLength - 1; i++) {
             bits.poll();
         }
-        for(int i = uncompressedBytes.length - 1; i > -1; i--) {
+        for(int i = 0; i < uncompressedBytes.length; i++) {
             uncompressedBytes[i] = tree.toByte(bits);
         }
         return uncompressedBytes;
