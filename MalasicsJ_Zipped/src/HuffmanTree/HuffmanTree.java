@@ -4,8 +4,10 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.*;
 
-import PriorityQueue.QueueNode;
+import PriorityQueue.PriorityQueue;
+import Queue.QueueNode;
 import edu.neumont.io.Bits;
+import PriorityQueue.*;
 
 /**
  * Created by jmalasics on 8/8/2014.
@@ -60,7 +62,7 @@ public class HuffmanTree<T> {
 
     private Node<T> root;
     private HashMap<T, Integer> frequencyTable = new HashMap<T, Integer>();
-    private PriorityQueue<QueueNode<T>> queue = new PriorityQueue<QueueNode<T>>();
+    private PriorityQueue<QueueNode<T>> queue = new HeapBasedPriorityQueue<QueueNode<T>>();
     private ArrayList<Node<T>> disconnectedNodes = new ArrayList<Node<T>>();
 
     public HuffmanTree(T[] values) {
@@ -87,7 +89,7 @@ public class HuffmanTree<T> {
             values.addAll(two.getValues());
             root = new Node<T>(values);
             QueueNode<T> node = new QueueNode<T>(values, totalFrequency);
-            queue.add(node);
+            queue.offer(node);
             root.setLeft(new Node<T>(one.getValues()));
             root.setRight(new Node<T>(two.getValues()));
         } else {
@@ -110,7 +112,7 @@ public class HuffmanTree<T> {
                 if(root.getRight() == null) {
                     root.setRight(new Node<T>(two.getValues()));
                 }
-                queue.add(new QueueNode<T>(newValues, totalFrequency));
+                queue.offer(new QueueNode<T>(newValues, totalFrequency));
             } else if(treeContains(root, two.getValues())) {
                 Node<T> temp = root;
                 Set<T> newValues = new HashSet<T>();
@@ -130,7 +132,7 @@ public class HuffmanTree<T> {
                     root.setLeft(new Node<T>(one.getValues()));
                 }
                 root.setRight(temp);
-                queue.add(new QueueNode<T>(newValues, totalFrequency));
+                queue.offer(new QueueNode<T>(newValues, totalFrequency));
             } else {
                 if(disconnectedNodes.size() > 0) {
                     int i;
@@ -171,7 +173,7 @@ public class HuffmanTree<T> {
         Node<T> node = new Node<T>(newValues);
         node.setLeft(new Node<T>(one.getValues()));
         node.setRight(new Node<T>(two.getValues()));
-        queue.add(new QueueNode<T>(newValues, totalFrequency));
+        queue.offer(new QueueNode<T>(newValues, totalFrequency));
         disconnectedNodes.add(node);
     }
 
@@ -195,7 +197,7 @@ public class HuffmanTree<T> {
             node.setLeft(new Node<T>(one.getValues()));
         }
         node.setRight(temp);
-        queue.add(new QueueNode<T>(newValues, totalFrequency));
+        queue.offer(new QueueNode<T>(newValues, totalFrequency));
         disconnectedNodes.add(node);
     }
 
@@ -219,7 +221,7 @@ public class HuffmanTree<T> {
         } else {
             node.setRight(new Node<T>(two.getValues()));
         }
-        queue.add(new QueueNode<T>(newValues, totalFrequency));
+        queue.offer(new QueueNode<T>(newValues, totalFrequency));
         disconnectedNodes.add(node);
     }
 
@@ -241,7 +243,7 @@ public class HuffmanTree<T> {
         for(T value : keySet) {
             Set<T> values = new HashSet<T>();
             values.add(value);
-            queue.add(new QueueNode<T>(values, frequencyTable.get(value)));
+            queue.offer(new QueueNode<T>(values, frequencyTable.get(value)));
         }
     }
 

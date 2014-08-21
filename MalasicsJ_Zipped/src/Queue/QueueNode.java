@@ -1,12 +1,11 @@
-package PriorityQueue;
+package Queue;
 
-import java.util.ArrayList;
 import java.util.Set;
 
 /**
  * Created by jmalasics on 8/11/2014.
  */
-public class QueueNode<T> implements Comparable {
+public class QueueNode<T> implements Comparable<QueueNode<T>> {
 
     private Set<T> values;
     private int frequency;
@@ -40,7 +39,7 @@ public class QueueNode<T> implements Comparable {
     }
 
     @Override
-    public int compareTo(Object o) {
+    public int compareTo(QueueNode<T> o) {
         int otherFrequencty = ((QueueNode) o).frequency;
         if(frequency > otherFrequencty) {
             return 1;

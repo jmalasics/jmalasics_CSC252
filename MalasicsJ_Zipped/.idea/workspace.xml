@@ -28,25 +28,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HuffmanTree.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="HuffmanTree.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HuffmanTree/HuffmanTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5064782" vertical-offset="46" max-vertical-offset="4692">
-              <caret line="77" column="32" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="3996" max-vertical-offset="5423">
+              <caret line="245" column="33" selection-start-line="245" selection-start-column="33" selection-end-line="245" selection-end-column="33" />
               <folding>
-                <element signature="method#main#0;class#HuffmanTree#0" expanded="false" />
-                <element signature="e#2891#2897#0" expanded="true" />
-                <element signature="e#3722#3734#0" expanded="true" />
-                <element signature="e#3803#3817#0" expanded="true" />
-                <element signature="e#3885#3894#0" expanded="true" />
-                <element signature="e#11529#11530#0" expanded="true" />
-                <element signature="e#11570#11571#0" expanded="true" />
-                <element signature="e#12006#12007#0" expanded="true" />
-                <element signature="e#12045#12046#0" expanded="true" />
-                <element signature="e#12990#12991#0" expanded="true" />
-                <element signature="e#13024#13025#0" expanded="true" />
-                <element signature="e#13089#13090#0" expanded="true" />
-                <element signature="e#13136#13137#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#2943#2949#0" expanded="true" />
+                <element signature="e#3774#3786#0" expanded="true" />
+                <element signature="e#3864#3878#0" expanded="true" />
+                <element signature="e#3946#3955#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -55,18 +47,18 @@
       <file leaf-file-name="HuffmanCompressor.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HuffmanTree/HuffmanCompressor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="590" max-vertical-offset="1173">
+            <state vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="1173">
               <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QueueNode.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PriorityQueue/QueueNode.java">
+      <file leaf-file-name="QueueNode.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Queue/QueueNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1207">
-              <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.14886165" vertical-offset="34" max-vertical-offset="1054">
+              <caret line="7" column="60" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -75,7 +67,7 @@
       <file leaf-file-name="Node.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HuffmanTree/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="969">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
               <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
               <folding>
                 <element signature="e#1306#1307#0" expanded="true" />
@@ -100,6 +92,7 @@
         <option value="$PROJECT_DIR$/src/HuffmanCompressor.java" />
         <option value="$PROJECT_DIR$/src/HuffmanTree/HuffmanCompressor.java" />
         <option value="$PROJECT_DIR$/src/HuffmanTree/HuffmanTree.java" />
+        <option value="$PROJECT_DIR$/src/Queue/QueueNode.java" />
       </list>
     </option>
   </component>
@@ -107,10 +100,10 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="577" />
-    <option name="y" value="14" />
-    <option name="width" value="1262" />
-    <option name="height" value="1021" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -140,8 +133,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -192,12 +183,32 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Queue" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MalasicsJ_Zipped" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MalasicsJ_Zipped" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="HuffmanTree" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -212,14 +223,14 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/MalasicsJ_MyWebApp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../MalasicsJ_Queued.jar!/" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="FullScreen" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
-    <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunManager" selected="Application.HuffmanTree">
@@ -498,15 +509,16 @@
       <workItem from="1408056552451" duration="2000000" />
       <workItem from="1408108893486" duration="8267000" />
       <workItem from="1408123324239" duration="8467000" />
+      <workItem from="1408658189722" duration="3832000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81177000" />
+    <option name="totallyTimeSpent" value="85009000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="577" y="14" width="1262" height="1021" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -527,8 +539,8 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.45424291" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35280898" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.45415777" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35243243" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -554,7 +566,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="67" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HuffmanTree/HuffmanTree.java</url>
+          <line>245</line>
+          <properties />
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="68" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -564,22 +584,54 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/HuffmanTree/HuffmanTree.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="46" max-vertical-offset="4692">
+          <caret line="77" column="32" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2943#2949#0" expanded="true" />
+            <element signature="e#3774#3786#0" expanded="true" />
+            <element signature="e#3864#3878#0" expanded="true" />
+            <element signature="e#3946#3955#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HuffmanTree/HuffmanCompressor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="1224">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Queue/QueueNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1207">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HuffmanTree/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1088" max-vertical-offset="1258">
+          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding>
+            <element signature="e#1306#1307#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HuffmanTree/HuffmanTree.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5355">
           <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
           <folding>
-            <element signature="method#main#0;class#HuffmanTree#0" expanded="false" />
-            <element signature="e#2891#2897#0" expanded="true" />
-            <element signature="e#3722#3734#0" expanded="true" />
-            <element signature="e#3803#3817#0" expanded="true" />
-            <element signature="e#3885#3894#0" expanded="true" />
-            <element signature="e#11529#11530#0" expanded="true" />
-            <element signature="e#11570#11571#0" expanded="true" />
-            <element signature="e#12006#12007#0" expanded="true" />
-            <element signature="e#12045#12046#0" expanded="true" />
-            <element signature="e#12990#12991#0" expanded="true" />
-            <element signature="e#13024#13025#0" expanded="true" />
-            <element signature="e#13089#13090#0" expanded="true" />
-            <element signature="e#13136#13137#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2943#2949#0" expanded="true" />
+            <element signature="e#3774#3786#0" expanded="true" />
+            <element signature="e#3864#3878#0" expanded="true" />
+            <element signature="e#3946#3955#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -592,7 +644,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PriorityQueue/QueueNode.java">
+    <entry file="file://$PROJECT_DIR$/src/Queue/QueueNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1207">
           <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
@@ -615,19 +667,11 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="901" max-vertical-offset="5355">
           <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding>
-            <element signature="method#main#0;class#HuffmanTree#0" expanded="false" />
-            <element signature="e#2891#2897#0" expanded="true" />
-            <element signature="e#3722#3734#0" expanded="true" />
-            <element signature="e#3803#3817#0" expanded="true" />
-            <element signature="e#3885#3894#0" expanded="true" />
-            <element signature="e#11529#11530#0" expanded="true" />
-            <element signature="e#11570#11571#0" expanded="true" />
-            <element signature="e#12006#12007#0" expanded="true" />
-            <element signature="e#12045#12046#0" expanded="true" />
-            <element signature="e#12990#12991#0" expanded="true" />
-            <element signature="e#13024#13025#0" expanded="true" />
-            <element signature="e#13089#13090#0" expanded="true" />
-            <element signature="e#13136#13137#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2943#2949#0" expanded="true" />
+            <element signature="e#3774#3786#0" expanded="true" />
+            <element signature="e#3864#3878#0" expanded="true" />
+            <element signature="e#3946#3955#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -640,7 +684,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PriorityQueue/QueueNode.java">
+    <entry file="file://$PROJECT_DIR$/src/Queue/QueueNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1207">
           <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
@@ -663,19 +707,11 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="173" max-vertical-offset="5355">
           <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
           <folding>
-            <element signature="method#main#0;class#HuffmanTree#0" expanded="false" />
-            <element signature="e#2891#2897#0" expanded="true" />
-            <element signature="e#3722#3734#0" expanded="true" />
-            <element signature="e#3803#3817#0" expanded="true" />
-            <element signature="e#3885#3894#0" expanded="true" />
-            <element signature="e#11529#11530#0" expanded="true" />
-            <element signature="e#11570#11571#0" expanded="true" />
-            <element signature="e#12006#12007#0" expanded="true" />
-            <element signature="e#12045#12046#0" expanded="true" />
-            <element signature="e#12990#12991#0" expanded="true" />
-            <element signature="e#13024#13025#0" expanded="true" />
-            <element signature="e#13089#13090#0" expanded="true" />
-            <element signature="e#13136#13137#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2943#2949#0" expanded="true" />
+            <element signature="e#3774#3786#0" expanded="true" />
+            <element signature="e#3864#3878#0" expanded="true" />
+            <element signature="e#3946#3955#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -688,7 +724,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PriorityQueue/QueueNode.java">
+    <entry file="file://$PROJECT_DIR$/src/Queue/QueueNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1207">
           <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
@@ -711,19 +747,11 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="646" max-vertical-offset="5610">
           <caret line="54" column="135" selection-start-line="54" selection-start-column="135" selection-end-line="54" selection-end-column="135" />
           <folding>
-            <element signature="method#main#0;class#HuffmanTree#0" expanded="false" />
-            <element signature="e#2891#2897#0" expanded="true" />
-            <element signature="e#3722#3734#0" expanded="true" />
-            <element signature="e#3803#3817#0" expanded="true" />
-            <element signature="e#3885#3894#0" expanded="true" />
-            <element signature="e#11529#11530#0" expanded="true" />
-            <element signature="e#11570#11571#0" expanded="true" />
-            <element signature="e#12006#12007#0" expanded="true" />
-            <element signature="e#12045#12046#0" expanded="true" />
-            <element signature="e#12990#12991#0" expanded="true" />
-            <element signature="e#13024#13025#0" expanded="true" />
-            <element signature="e#13089#13090#0" expanded="true" />
-            <element signature="e#13136#13137#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2943#2949#0" expanded="true" />
+            <element signature="e#3774#3786#0" expanded="true" />
+            <element signature="e#3864#3878#0" expanded="true" />
+            <element signature="e#3946#3955#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -736,7 +764,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PriorityQueue/QueueNode.java">
+    <entry file="file://$PROJECT_DIR$/src/Queue/QueueNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1207">
           <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
@@ -759,24 +787,16 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="181" max-vertical-offset="4097">
           <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
-            <element signature="method#main#0;class#HuffmanTree#0" expanded="false" />
-            <element signature="e#2891#2897#0" expanded="true" />
-            <element signature="e#3722#3734#0" expanded="true" />
-            <element signature="e#3803#3817#0" expanded="true" />
-            <element signature="e#3885#3894#0" expanded="true" />
-            <element signature="e#11529#11530#0" expanded="true" />
-            <element signature="e#11570#11571#0" expanded="true" />
-            <element signature="e#12006#12007#0" expanded="true" />
-            <element signature="e#12045#12046#0" expanded="true" />
-            <element signature="e#12990#12991#0" expanded="true" />
-            <element signature="e#13024#13025#0" expanded="true" />
-            <element signature="e#13089#13090#0" expanded="true" />
-            <element signature="e#13136#13137#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2943#2949#0" expanded="true" />
+            <element signature="e#3774#3786#0" expanded="true" />
+            <element signature="e#3864#3878#0" expanded="true" />
+            <element signature="e#3946#3955#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PriorityQueue/QueueNode.java">
+    <entry file="file://$PROJECT_DIR$/src/Queue/QueueNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1190">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
@@ -799,24 +819,16 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="4080">
           <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
           <folding>
-            <element signature="method#main#0;class#HuffmanTree#0" expanded="false" />
-            <element signature="e#2891#2897#0" expanded="true" />
-            <element signature="e#3722#3734#0" expanded="true" />
-            <element signature="e#3803#3817#0" expanded="true" />
-            <element signature="e#3885#3894#0" expanded="true" />
-            <element signature="e#11529#11530#0" expanded="true" />
-            <element signature="e#11570#11571#0" expanded="true" />
-            <element signature="e#12006#12007#0" expanded="true" />
-            <element signature="e#12045#12046#0" expanded="true" />
-            <element signature="e#12990#12991#0" expanded="true" />
-            <element signature="e#13024#13025#0" expanded="true" />
-            <element signature="e#13089#13090#0" expanded="true" />
-            <element signature="e#13136#13137#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2943#2949#0" expanded="true" />
+            <element signature="e#3774#3786#0" expanded="true" />
+            <element signature="e#3864#3878#0" expanded="true" />
+            <element signature="e#3946#3955#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PriorityQueue/QueueNode.java">
+    <entry file="file://$PROJECT_DIR$/src/Queue/QueueNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1190">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
@@ -839,24 +851,16 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1938">
           <caret line="41" column="73" selection-start-line="41" selection-start-column="73" selection-end-line="41" selection-end-column="73" />
           <folding>
-            <element signature="method#main#0;class#HuffmanTree#0" expanded="false" />
-            <element signature="e#2891#2897#0" expanded="true" />
-            <element signature="e#3722#3734#0" expanded="true" />
-            <element signature="e#3803#3817#0" expanded="true" />
-            <element signature="e#3885#3894#0" expanded="true" />
-            <element signature="e#11529#11530#0" expanded="true" />
-            <element signature="e#11570#11571#0" expanded="true" />
-            <element signature="e#12006#12007#0" expanded="true" />
-            <element signature="e#12045#12046#0" expanded="true" />
-            <element signature="e#12990#12991#0" expanded="true" />
-            <element signature="e#13024#13025#0" expanded="true" />
-            <element signature="e#13089#13090#0" expanded="true" />
-            <element signature="e#13136#13137#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2943#2949#0" expanded="true" />
+            <element signature="e#3774#3786#0" expanded="true" />
+            <element signature="e#3864#3878#0" expanded="true" />
+            <element signature="e#3946#3955#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PriorityQueue/QueueNode.java">
+    <entry file="file://$PROJECT_DIR$/src/Queue/QueueNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="969">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
@@ -879,24 +883,16 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="782" max-vertical-offset="1751">
           <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
           <folding>
-            <element signature="method#main#0;class#HuffmanTree#0" expanded="false" />
-            <element signature="e#2891#2897#0" expanded="true" />
-            <element signature="e#3722#3734#0" expanded="true" />
-            <element signature="e#3803#3817#0" expanded="true" />
-            <element signature="e#3885#3894#0" expanded="true" />
-            <element signature="e#11529#11530#0" expanded="true" />
-            <element signature="e#11570#11571#0" expanded="true" />
-            <element signature="e#12006#12007#0" expanded="true" />
-            <element signature="e#12045#12046#0" expanded="true" />
-            <element signature="e#12990#12991#0" expanded="true" />
-            <element signature="e#13024#13025#0" expanded="true" />
-            <element signature="e#13089#13090#0" expanded="true" />
-            <element signature="e#13136#13137#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2943#2949#0" expanded="true" />
+            <element signature="e#3774#3786#0" expanded="true" />
+            <element signature="e#3864#3878#0" expanded="true" />
+            <element signature="e#3946#3955#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PriorityQueue/QueueNode.java">
+    <entry file="file://$PROJECT_DIR$/src/Queue/QueueNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="969">
           <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
@@ -919,24 +915,16 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="1581">
           <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
           <folding>
-            <element signature="method#main#0;class#HuffmanTree#0" expanded="false" />
-            <element signature="e#2891#2897#0" expanded="true" />
-            <element signature="e#3722#3734#0" expanded="true" />
-            <element signature="e#3803#3817#0" expanded="true" />
-            <element signature="e#3885#3894#0" expanded="true" />
-            <element signature="e#11529#11530#0" expanded="true" />
-            <element signature="e#11570#11571#0" expanded="true" />
-            <element signature="e#12006#12007#0" expanded="true" />
-            <element signature="e#12045#12046#0" expanded="true" />
-            <element signature="e#12990#12991#0" expanded="true" />
-            <element signature="e#13024#13025#0" expanded="true" />
-            <element signature="e#13089#13090#0" expanded="true" />
-            <element signature="e#13136#13137#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2943#2949#0" expanded="true" />
+            <element signature="e#3774#3786#0" expanded="true" />
+            <element signature="e#3864#3878#0" expanded="true" />
+            <element signature="e#3946#3955#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PriorityQueue/QueueNode.java">
+    <entry file="file://$PROJECT_DIR$/src/Queue/QueueNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="782" max-vertical-offset="1003">
           <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
@@ -959,24 +947,16 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="1530">
           <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
           <folding>
-            <element signature="method#main#0;class#HuffmanTree#0" expanded="false" />
-            <element signature="e#2891#2897#0" expanded="true" />
-            <element signature="e#3722#3734#0" expanded="true" />
-            <element signature="e#3803#3817#0" expanded="true" />
-            <element signature="e#3885#3894#0" expanded="true" />
-            <element signature="e#11529#11530#0" expanded="true" />
-            <element signature="e#11570#11571#0" expanded="true" />
-            <element signature="e#12006#12007#0" expanded="true" />
-            <element signature="e#12045#12046#0" expanded="true" />
-            <element signature="e#12990#12991#0" expanded="true" />
-            <element signature="e#13024#13025#0" expanded="true" />
-            <element signature="e#13089#13090#0" expanded="true" />
-            <element signature="e#13136#13137#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2943#2949#0" expanded="true" />
+            <element signature="e#3774#3786#0" expanded="true" />
+            <element signature="e#3864#3878#0" expanded="true" />
+            <element signature="e#3946#3955#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PriorityQueue/QueueNode.java">
+    <entry file="file://$PROJECT_DIR$/src/Queue/QueueNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="782" max-vertical-offset="1003">
           <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
@@ -999,19 +979,11 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="969">
           <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
           <folding>
-            <element signature="method#main#0;class#HuffmanTree#0" expanded="false" />
-            <element signature="e#2891#2897#0" expanded="true" />
-            <element signature="e#3722#3734#0" expanded="true" />
-            <element signature="e#3803#3817#0" expanded="true" />
-            <element signature="e#3885#3894#0" expanded="true" />
-            <element signature="e#11529#11530#0" expanded="true" />
-            <element signature="e#11570#11571#0" expanded="true" />
-            <element signature="e#12006#12007#0" expanded="true" />
-            <element signature="e#12045#12046#0" expanded="true" />
-            <element signature="e#12990#12991#0" expanded="true" />
-            <element signature="e#13024#13025#0" expanded="true" />
-            <element signature="e#13089#13090#0" expanded="true" />
-            <element signature="e#13136#13137#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2943#2949#0" expanded="true" />
+            <element signature="e#3774#3786#0" expanded="true" />
+            <element signature="e#3864#3878#0" expanded="true" />
+            <element signature="e#3946#3955#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1023,14 +995,6 @@
           <folding>
             <element signature="e#1306#1307#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PriorityQueue/QueueNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1105">
-          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1061,23 +1025,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HuffmanTree/HuffmanTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5064782" vertical-offset="46" max-vertical-offset="4692">
-          <caret line="77" column="32" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="3996" max-vertical-offset="5423">
+          <caret line="245" column="33" selection-start-line="245" selection-start-column="33" selection-end-line="245" selection-end-column="33" />
           <folding>
-            <element signature="method#main#0;class#HuffmanTree#0" expanded="false" />
-            <element signature="e#2891#2897#0" expanded="true" />
-            <element signature="e#3722#3734#0" expanded="true" />
-            <element signature="e#3803#3817#0" expanded="true" />
-            <element signature="e#3885#3894#0" expanded="true" />
-            <element signature="e#11529#11530#0" expanded="true" />
-            <element signature="e#11570#11571#0" expanded="true" />
-            <element signature="e#12006#12007#0" expanded="true" />
-            <element signature="e#12045#12046#0" expanded="true" />
-            <element signature="e#12990#12991#0" expanded="true" />
-            <element signature="e#13024#13025#0" expanded="true" />
-            <element signature="e#13089#13090#0" expanded="true" />
-            <element signature="e#13136#13137#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2943#2949#0" expanded="true" />
+            <element signature="e#3774#3786#0" expanded="true" />
+            <element signature="e#3864#3878#0" expanded="true" />
+            <element signature="e#3946#3955#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../MalasicsJ_Queued.jar!/src/PriorityQueue/HeapBasedPriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="599" max-vertical-offset="1496">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uncompressed.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Queue/QueueNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14886165" vertical-offset="34" max-vertical-offset="1054">
+          <caret line="7" column="60" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="60" />
+          <folding />
         </state>
       </provider>
     </entry>
