@@ -4,6 +4,7 @@
     <root id="archive" name="MalasicsJ_Zipped.jar">
       <element id="module-output" name="MalasicsJ_Zipped" />
       <element id="extracted-dir" path="$USER_HOME$/Downloads/zipped.jar" path-in-jar="/" />
+      <element id="dir-copy" path="$PROJECT_DIR$" />
     </root>
   </artifact>
 </component>
