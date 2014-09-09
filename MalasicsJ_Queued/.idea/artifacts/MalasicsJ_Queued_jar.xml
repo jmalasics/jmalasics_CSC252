@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MalasicsJ_Queued:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MalasicsJ_Queued_jar</output-path>
+    <root id="archive" name="MalasicsJ_Queued.jar">
+      <element id="module-output" name="MalasicsJ_Queued" />
+      <element id="dir-copy" path="$PROJECT_DIR$" />
+    </root>
+  </artifact>
+</component>
